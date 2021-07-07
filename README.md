@@ -251,9 +251,9 @@ Artikel, sesuaikan kode pada method add seperti berikut:
 Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti 
 berikut.
 
- <p>
+ "<p>
  <input type="file" name="gambar">
-</p>
+</p>"
 
 
 Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
