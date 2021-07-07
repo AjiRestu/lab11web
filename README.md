@@ -111,7 +111,7 @@ Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 ![](foto/35.PNG)
 
-Sekian dan terima kasih
+![](foto/36.PNG)
 
 
 
