@@ -209,6 +209,7 @@ dibawah deklarasi tabel data
 
 <?= $pager->links(); ?>
 
+
 Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat 
 hasilnya.
 
@@ -229,9 +230,11 @@ pencarian sebelum deklarasi tabel seperti berikut:
  <input type="submit" value="Cari" class="btn btn-primary">
 </form>
 
+
 Dan pada link pager ubah seperti berikut.
 
 <?= $pager->only(['q'])->links(); ?>
+
 
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata 
 kunci tertentu pada form pencarian.
@@ -251,10 +254,12 @@ berikut.
  <input type="file" name="gambar">
 </p>
 
+
 Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
 
 <form action="" method="post" enctype="multipart/form-data">
 
+ 
 Ujicoba file upload dengan mengakses menu tambah artikel
 
 ![](foto/53.PNG)  
