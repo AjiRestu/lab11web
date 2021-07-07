@@ -207,6 +207,7 @@ kode pada method admin_index seperti berikut.
 Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
 dibawah deklarasi tabel data
 
+
 <?= $pager->links(); ?>
 
 
